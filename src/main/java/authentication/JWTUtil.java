@@ -13,7 +13,7 @@ import io.jsonwebtoken.SignatureAlgorithm;
 @Service
 public class JWTUtil {
 	
-	private static final String Signing_Key = "a3bZm1OGhKLc73asitfhgjheaoprmdjkjsafdhbfgajnxdfkjg546547432n654jbdh6k56njf";
+	private static final String Signing_Key = "Security key";
 	
 	public String GenerateToken(String username) {
 			
