@@ -13,16 +13,16 @@ import io.jsonwebtoken.SignatureAlgorithm;
 @Service
 public class JWTUtil {
 	
-	private static final String Signing_Key = "Security key";
+	private static final String Signing_Key = "saxjfnbewguqoihlnumxLZKUNXMXUUXUUmjvt56876mvn5976mcxcgrgfbcgcfgvhgdhvhvgt676v{#^&*#^%#@%*%";
 	
 	public String GenerateToken(String username) {
 			
 		return Jwts.builder()
-				.setSubject(username) // modifying username
-				.setIssuedAt(new java.util.Date()) //getting date of issuing
-				.setExpiration(new java.util.Date(System.currentTimeMillis()+1000*60*60)) //setting expiry of token
-				.signWith(SignatureAlgorithm.HS256, Signing_Key) //signing the username for auth
-				.compact(); //compacting all in one
+				.setSubject(username) 
+				.setIssuedAt(new java.util.Date())
+				.setExpiration(new java.util.Date(System.currentTimeMillis()+1000*60*60)) 
+				.signWith(SignatureAlgorithm.HS256, Signing_Key)
+				.compact();
 	}
 	
 	public String ExtractUsername(String token) {
