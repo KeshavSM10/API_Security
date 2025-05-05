@@ -1,6 +1,6 @@
 # 🔐 API_Security – Monetized & Secure API Gateway using Spring Boot
 
-A scalable, production-ready backend system built with **Java 21**, **Spring Boot**, and **Spring Security**. It integrates robust API security with monetization logic (Free, Basic, Premium plans), JWT authentication, PostgreSQL storage, and traffic protection via **Bucket4j** rate limiting. Load balancing is handled using **NGINX** for smooth and reliable performance.
+A scalable, production-ready backend system built with **Java 21**, **Spring Boot**, and **Spring Security**. It integrates robust API security with monetization logic (Free, Basic, Premium plans), JWT authentication, PostgreSQL storage, and traffic protection via **Bucket4j** rate limiting. Load balancing is handled using **NGINX** for smooth and reliable performance. This can be used as source for developemnt of secure APIs. Needs inclusion of API of desired Payment service like **Stripe**, **Paypal** etc.
 
 ---
 
@@ -71,4 +71,3 @@ API_Security/
 ├── pom.xml
 └── README.md
 
-## Open source
