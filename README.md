@@ -7,10 +7,10 @@ A scalable, production-ready backend system built with **Java 21**, **Spring Boo
 ## 💡 Key Highlights
 
 - 🔐 JWT-based Authentication & Authorization
-- 💳 User Monetization Classes: `Free`, `Basic`, `Premium`
 - 📊 API Rate Limiting with Bucket4j
 - 📦 PostgreSQL-backed persistent storage
 - 🌐 Load balancing with NGINX for scalability
+- 💳 User Monetization Classes: `Free`, `Basic`, `Premium`
 - 🔐 Role-based and Plan-based API access control
 
 ---
