@@ -71,7 +71,3 @@ API_Security/
 ├── Dockerfile
 ├── pom.xml
 └── README.md
-
----
-
-## Open Source
