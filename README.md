@@ -41,6 +41,7 @@ A scalable, production-ready backend system built with **Java 21**, **Spring Boo
 - **Rate Limiting**: Implemented using Bucket4j to avoid abuse per user plan.
 - **Request Logging & Auditing**: (Optional, based on implementation)
 - **NGINX Load Balancing**: Ensures service availability under high traffic.
+- **Manage Payment History**: Manages payment history of customers.
 
 ---
 
